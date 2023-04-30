@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003-Validation response a booking data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db868d56-3138-42c9-93d6-98ab8b028f02</testCaseGuid>
+</TestCaseEntity>
