@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Validation response all booking id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9121e76a-f4aa-43ea-acad-b94104ec59ef</testCaseGuid>
+</TestCaseEntity>
