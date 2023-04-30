@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Post Test Scenario,,,,2023-05-01 04:01:58,2023-05-01 04:02:13,"14,123s",PASSED
+,,,,,,,
+Test Cases/SK02-Post Scenario/TC002-Validation response create auth token,,,,2023-05-01 04:01:59,2023-05-01 04:02:08,"9,052s",PASSED
+"sendRequest(findTestObject(""POST/Post create auth token""))",,send request,,2023-05-01 04:02:00,2023-05-01 04:02:06,"5,344s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/Post create auth token""))",,send request and verification response,,2023-05-01 04:02:06,2023-05-01 04:02:08,"2,571s",PASSED
+"verifyResponseStatusCode(response, 200)",,verify the status code response,,2023-05-01 04:02:08,2023-05-01 04:02:08,"0,007s",PASSED
+,,,,,,,
+Test Cases/SK02-Post Scenario/TC004-Validation response create booking,,,,2023-05-01 04:02:08,2023-05-01 04:02:13,"4,239s",PASSED
+"sendRequest(findTestObject(""POST/Post create booking""))",,,,2023-05-01 04:02:09,2023-05-01 04:02:11,"1,932s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/Post create booking""))",,,,2023-05-01 04:02:11,2023-05-01 04:02:13,"1,476s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-01 04:02:13,2023-05-01 04:02:13,"0,005s",PASSED
