@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Validation response create auth token</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>355d6df0-9386-4de9-a99d-eeb156628144</testCaseGuid>
+</TestCaseEntity>
