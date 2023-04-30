@@ -17,9 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'send request'
 WS.sendRequest(findTestObject('PUT and PATCH/Put update booking'))
 
+'validation and verification response'
 response = WS.sendRequestAndVerify(findTestObject('PUT and PATCH/Put update booking'))
 
+'verify the status code response'
 WS.verifyResponseStatusCode(response, 200)
 

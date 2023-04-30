@@ -17,9 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'send request'
 WS.sendRequest(findTestObject('DELETE/Delete booking'))
 
+'validation and verification response'
 response = WS.sendRequestAndVerify(findTestObject('DELETE/Delete booking'))
 
+'verify the status code response'
 WS.verifyResponseStatusCode(response, 201)
 
