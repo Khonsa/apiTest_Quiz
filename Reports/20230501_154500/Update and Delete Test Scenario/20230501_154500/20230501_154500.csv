@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Update and Delete Test Scenario,,,,2023-05-01 15:45:06,2023-05-01 15:45:26,"19,876s",FAILED
+,,,,,,,
+Test Cases/SK03-Update and delete scenario/TC005-Validation response update booking data,,,,2023-05-01 15:45:07,2023-05-01 15:45:16,"8,536s",PASSED
+"sendRequest(findTestObject(""PUT and PATCH/Put update booking""))",,send request,,2023-05-01 15:45:08,2023-05-01 15:45:13,"5,169s",PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT and PATCH/Put update booking""))",,validation and verification response,,2023-05-01 15:45:13,2023-05-01 15:45:15,"2,423s",PASSED
+"verifyResponseStatusCode(response, 200)",,verify the status code response,,2023-05-01 15:45:15,2023-05-01 15:45:16,"0,015s",PASSED
+,,,,,,,
+Test Cases/SK03-Update and delete scenario/TC006-Validation response update partial booking data,,,,2023-05-01 15:45:16,2023-05-01 15:45:19,"3,408s",PASSED
+"sendRequest(findTestObject(""PUT and PATCH/Patch partial update booking""))",,send request,,2023-05-01 15:45:16,2023-05-01 15:45:17,"1,205s",PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT and PATCH/Patch partial update booking""))",,validation and verification response,,2023-05-01 15:45:17,2023-05-01 15:45:19,"1,541s",PASSED
+"verifyResponseStatusCode(response, 200)",,verify the status code response,,2023-05-01 15:45:19,2023-05-01 15:45:19,"0,007s",PASSED
+,,,,,,,
+Test Cases/SK03-Update and delete scenario/TC007-Validation response delete booking,,,,2023-05-01 15:45:25,2023-05-01 15:45:26,"1,636s",FAILED
+"response = sendRequestAndVerify(findTestObject(""DELETE/Delete booking""))",,send request,,2023-05-01 15:45:25,2023-05-01 15:45:26,"1,616s",FAILED
