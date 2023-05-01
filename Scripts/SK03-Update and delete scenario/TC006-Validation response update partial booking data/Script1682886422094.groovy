@@ -26,3 +26,6 @@ response = WS.sendRequestAndVerify(findTestObject('PUT and PATCH/Patch partial u
 'verify the status code response'
 WS.verifyResponseStatusCode(response, 200)
 
+'verify element JSON firstname value'
+WS.verifyElementPropertyValue(response, 'firstname', 'James')
+
