@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get Test Scenario" time="17.225" tests="3" failures="0" errors="0">
+   <testsuite name="Get Test Scenario" tests="3" failures="0" errors="0" time="17.225" skipped="0" timestamp="2023-05-01 15:05:59" hostname="USER - 192.168.1.72" id="Test Suites/Get Test Scenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\apiTest_QuizGit\\Reports\\20230501_150553\\Get Test Scenario\\20230501_150553"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\apiTest_QuizGit\\Reports\\20230501_150553\\Get Test Scenario\\20230501_150553\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - 192.168.1.72"/>
+         <property name="hostAddress" value="192.168.1.72"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/SK01-Get Scenario/TC001-Validation response all booking id" time="9.266" classname="Test Cases/SK01-Get Scenario/TC001-Validation response all booking id" status="PASSED">
+         <system-out><![CDATA[2023-05-01 15:06:00 - [TEST_CASE][PASSED] - Test Cases/SK01-Get Scenario/TC001-Validation response all booking id: Test Cases/SK01-Get Scenario/TC001-Validation response all booking id
+
+2023-05-01 15:06:01 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get all booking id")): Send request successfully
+
+2023-05-01 15:06:06 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\0.har
+
+2023-05-01 15:06:06 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-01 15:06:06 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get all booking id")): Send request and verify the response successfully
+
+2023-05-01 15:06:08 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\1.har
+
+2023-05-01 15:06:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-05-01 15:06:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-05-01 15:06:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-05-01 15:06:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-05-01 15:06:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-05-01 15:06:08 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2023-05-01 15:06:09 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-05-01 15:06:09 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-05-01 15:06:09 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-05-01 15:06:09 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-05-01 15:06:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-05-01 15:06:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SK01-Get Scenario/TC008-Validation response health check" time="3.511" classname="Test Cases/SK01-Get Scenario/TC008-Validation response health check" status="PASSED">
+         <system-out><![CDATA[2023-05-01 15:06:09 - [TEST_CASE][PASSED] - Test Cases/SK01-Get Scenario/TC008-Validation response health check: Test Cases/SK01-Get Scenario/TC008-Validation response health check
+
+2023-05-01 15:06:10 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get Health Check")): Send request successfully
+
+2023-05-01 15:06:11 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\2.har
+
+2023-05-01 15:06:11 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-01 15:06:11 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get Health Check")): Send request and verify the response successfully
+
+2023-05-01 15:06:12 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\3.har
+
+2023-05-01 15:06:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2023-05-01 15:06:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-05-01 15:06:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-05-01 15:06:13 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-05-01 15:06:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-05-01 15:06:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2023-05-01 15:06:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data" time="3.712" classname="Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data" status="PASSED">
+         <system-out><![CDATA[2023-05-01 15:06:13 - [TEST_CASE][PASSED] - Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data: Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data
+
+2023-05-01 15:06:14 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get a booking data")): Send request successfully
+
+2023-05-01 15:06:15 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\4.har
+
+2023-05-01 15:06:15 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-01 15:06:15 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get a booking data")): Send request and verify the response successfully
+
+2023-05-01 15:06:16 - [MESSAGE][INFO] - HAR: C:\Users\USER\git\apiTest_QuizGit\Reports\20230501_150553\Get Test Scenario\20230501_150553\requests\main\5.har
+
+2023-05-01 15:06:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-05-01 15:06:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2023-05-01 15:06:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-05-01 15:06:16 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-05-01 15:06:16 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-05-01 15:06:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-05-01 15:06:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-01 15:05:59 - [TEST_SUITE][PASSED] - Get Test Scenario: Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

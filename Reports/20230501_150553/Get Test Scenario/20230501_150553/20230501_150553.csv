@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Test Scenario,,,,2023-05-01 15:05:59,2023-05-01 15:06:16,"17,225s",PASSED
+,,,,,,,
+Test Cases/SK01-Get Scenario/TC001-Validation response all booking id,,,,2023-05-01 15:06:00,2023-05-01 15:06:09,"9,266s",PASSED
+"sendRequest(findTestObject(""GET/Get all booking id""))",,Send Request,,2023-05-01 15:06:01,2023-05-01 15:06:06,"5,439s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get all booking id""))",,Send Request and Verification Response,,2023-05-01 15:06:06,2023-05-01 15:06:09,"2,845s",PASSED
+"verifyResponseStatusCode(response, 200)",,Verify the status code response,,2023-05-01 15:06:09,2023-05-01 15:06:09,"0,020s",PASSED
+,,,,,,,
+Test Cases/SK01-Get Scenario/TC008-Validation response health check,,,,2023-05-01 15:06:09,2023-05-01 15:06:13,"3,511s",PASSED
+"sendRequest(findTestObject(""GET/Get Health Check""))",,,,2023-05-01 15:06:10,2023-05-01 15:06:11,"1,158s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get Health Check""))",,,,2023-05-01 15:06:11,2023-05-01 15:06:13,"1,645s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2023-05-01 15:06:13,2023-05-01 15:06:13,"0,010s",PASSED
+,,,,,,,
+Test Cases/SK01-Get Scenario/TC009-Validation response get a booking data,,,,2023-05-01 15:06:13,2023-05-01 15:06:16,"3,712s",PASSED
+"sendRequest(findTestObject(""GET/Get a booking data""))",,,,2023-05-01 15:06:14,2023-05-01 15:06:15,"1,158s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get a booking data""))",,,,2023-05-01 15:06:15,2023-05-01 15:06:16,"1,529s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-05-01 15:06:16,2023-05-01 15:06:16,"0,004s",PASSED
