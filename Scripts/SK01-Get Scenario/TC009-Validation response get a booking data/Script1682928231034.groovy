@@ -23,3 +23,5 @@ response = WS.sendRequestAndVerify(findTestObject('GET/Get a booking data'))
 
 WS.verifyResponseStatusCode(response, 200)
 
+WS.verifyElementPropertyValue(response, 'firstname', 'Eric')
+
